@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="TestTools"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\libllist\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/__PROJETS/__GITHUB/programmationTools_test/libllist/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/main.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/__PROJETS/__GITHUB/programmationTools_test/libllist/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="static_cast">
+				<Option output="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/static_cast.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 static_cast"/>
+					<CompileFile command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="static_cast/fast">
+				<Option output="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/static_cast.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 static_cast/fast"/>
+					<CompileFile command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="llist">
+				<Option output="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist/libllist.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/__PROJETS/__GITHUB/programmationTools_test/libllist/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist/Makefile&quot;  VERBOSE=1 llist"/>
+					<CompileFile command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="llist/fast">
+				<Option output="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist/libllist.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/__PROJETS/__GITHUB/programmationTools_test/libllist/."/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist/Makefile&quot;  VERBOSE=1 llist/fast"/>
+					<CompileFile command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/__OUTILS/__MINGW/bin/mingw32-make.exe -f &quot;D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/libllist/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/__PROJETS/__GITHUB/programmationTools_test/libllist/llist.cpp">
+			<Option target="llist"/>
+		</Unit>
+		<Unit filename="D:/__PROJETS/__GITHUB/programmationTools_test/libllist/llist.h">
+			<Option target="llist"/>
+		</Unit>
+		<Unit filename="D:/__PROJETS/__GITHUB/programmationTools_test/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="D:/__PROJETS/__GITHUB/programmationTools_test/static_cast.cpp">
+			<Option target="static_cast"/>
+		</Unit>
+		<Unit filename="D:/__PROJETS/__GITHUB/programmationTools_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/__PROJETS/__GITHUB/programmationTools_test/libllist/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\libllist\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

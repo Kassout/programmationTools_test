@@ -1,0 +1,12 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
+
+PROJECT(TestTools)
+
+ADD_SUBDIRECTORY(libllist)
+
+SET(SOURCES main.cpp)
+
+ADD_EXECUTABLE(main ${SOURCES})
+ADD_EXECUTABLE(static_cast static_cast.cpp)
+
+TARGET_LINK_LIBRARIES(main llist)

@@ -1,0 +1,3 @@
+"D:\__OUTILS\__CLION\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\static_cast.dir/objects.a
+D:\__OUTILS\__MINGW\bin\ar.exe cr CMakeFiles\static_cast.dir/objects.a @CMakeFiles\static_cast.dir\objects1.rsp
+D:\__OUTILS\__MINGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\static_cast.dir/objects.a -Wl,--no-whole-archive -o static_cast.exe -Wl,--out-implib,libstatic_cast.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\static_cast.dir\linklibs.rsp

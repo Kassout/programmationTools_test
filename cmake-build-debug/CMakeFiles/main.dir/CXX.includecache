@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../libllist/llist.h
+
+D:/__PROJETS/__GITHUB/programmationTools_test/main.cpp
+llist.h
+D:/__PROJETS/__GITHUB/programmationTools_test/llist.h
+

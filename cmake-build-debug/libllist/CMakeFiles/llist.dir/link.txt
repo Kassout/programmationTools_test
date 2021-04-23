@@ -1,0 +1,2 @@
+D:\__OUTILS\__MINGW\bin\ar.exe qc libllist.a CMakeFiles/llist.dir/llist.cpp.obj
+D:\__OUTILS\__MINGW\bin\ranlib.exe libllist.a

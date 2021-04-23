@@ -1,0 +1,4 @@
+ToolSet: 5.2 (local)@D:\__OUTILS\__MINGW
+Options: 
+
+Options:
