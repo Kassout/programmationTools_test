@@ -75,27 +75,27 @@ include CMakeFiles/static_cast.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/static_cast.dir/flags.make
 
-CMakeFiles/static_cast.dir/static_cast.cpp.obj: CMakeFiles/static_cast.dir/flags.make
-CMakeFiles/static_cast.dir/static_cast.cpp.obj: ../static_cast.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\__PROJETS\__GITHUB\programmationTools_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/static_cast.dir/static_cast.cpp.obj"
-	D:\__OUTILS\__MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\static_cast.dir\static_cast.cpp.obj -c D:\__PROJETS\__GITHUB\programmationTools_test\static_cast.cpp
+CMakeFiles/static_cast.dir/cast_use_cases.cpp.obj: CMakeFiles/static_cast.dir/flags.make
+CMakeFiles/static_cast.dir/cast_use_cases.cpp.obj: ../cast_use_cases.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\__PROJETS\__GITHUB\programmationTools_test\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/static_cast.dir/cast_use_cases.cpp.obj"
+	D:\__OUTILS\__MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\static_cast.dir\cast_use_cases.cpp.obj -c D:\__PROJETS\__GITHUB\programmationTools_test\cast_use_cases.cpp
 
-CMakeFiles/static_cast.dir/static_cast.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/static_cast.dir/static_cast.cpp.i"
-	D:\__OUTILS\__MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\__PROJETS\__GITHUB\programmationTools_test\static_cast.cpp > CMakeFiles\static_cast.dir\static_cast.cpp.i
+CMakeFiles/static_cast.dir/cast_use_cases.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/static_cast.dir/cast_use_cases.cpp.i"
+	D:\__OUTILS\__MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\__PROJETS\__GITHUB\programmationTools_test\cast_use_cases.cpp > CMakeFiles\static_cast.dir\cast_use_cases.cpp.i
 
-CMakeFiles/static_cast.dir/static_cast.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/static_cast.dir/static_cast.cpp.s"
-	D:\__OUTILS\__MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\__PROJETS\__GITHUB\programmationTools_test\static_cast.cpp -o CMakeFiles\static_cast.dir\static_cast.cpp.s
+CMakeFiles/static_cast.dir/cast_use_cases.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/static_cast.dir/cast_use_cases.cpp.s"
+	D:\__OUTILS\__MINGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\__PROJETS\__GITHUB\programmationTools_test\cast_use_cases.cpp -o CMakeFiles\static_cast.dir\cast_use_cases.cpp.s
 
 # Object files for target static_cast
 static_cast_OBJECTS = \
-"CMakeFiles/static_cast.dir/static_cast.cpp.obj"
+"CMakeFiles/static_cast.dir/cast_use_cases.cpp.obj"
 
 # External object files for target static_cast
 static_cast_EXTERNAL_OBJECTS =
 
-static_cast.exe: CMakeFiles/static_cast.dir/static_cast.cpp.obj
+static_cast.exe: CMakeFiles/static_cast.dir/cast_use_cases.cpp.obj
 static_cast.exe: CMakeFiles/static_cast.dir/build.make
 static_cast.exe: CMakeFiles/static_cast.dir/linklibs.rsp
 static_cast.exe: CMakeFiles/static_cast.dir/objects1.rsp

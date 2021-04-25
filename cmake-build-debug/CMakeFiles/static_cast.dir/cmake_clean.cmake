@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/static_cast.dir/static_cast.cpp.obj"
+  "CMakeFiles/static_cast.dir/cast_use_cases.cpp.obj"
   "libstatic_cast.dll.a"
   "static_cast.exe"
   "static_cast.exe.manifest"

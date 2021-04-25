@@ -76,8 +76,8 @@ CMAKE_BINARY_DIR = D:\__PROJETS\__GITHUB\programmationTools_test\cmake-build-deb
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\__OUTILS\__CLION\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	D:\__OUTILS\__CMAKE\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -167,6 +167,33 @@ llist/fast:
 	$(MAKE) $(MAKESILENT) -f libllist\CMakeFiles\llist.dir\build.make libllist/CMakeFiles/llist.dir/build
 .PHONY : llist/fast
 
+cast_use_cases.obj: cast_use_cases.cpp.obj
+
+.PHONY : cast_use_cases.obj
+
+# target to build an object file
+cast_use_cases.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\static_cast.dir\build.make CMakeFiles/static_cast.dir/cast_use_cases.cpp.obj
+.PHONY : cast_use_cases.cpp.obj
+
+cast_use_cases.i: cast_use_cases.cpp.i
+
+.PHONY : cast_use_cases.i
+
+# target to preprocess a source file
+cast_use_cases.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\static_cast.dir\build.make CMakeFiles/static_cast.dir/cast_use_cases.cpp.i
+.PHONY : cast_use_cases.cpp.i
+
+cast_use_cases.s: cast_use_cases.cpp.s
+
+.PHONY : cast_use_cases.s
+
+# target to generate assembly for a file
+cast_use_cases.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\static_cast.dir\build.make CMakeFiles/static_cast.dir/cast_use_cases.cpp.s
+.PHONY : cast_use_cases.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -194,33 +221,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-static_cast.obj: static_cast.cpp.obj
-
-.PHONY : static_cast.obj
-
-# target to build an object file
-static_cast.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static_cast.dir\build.make CMakeFiles/static_cast.dir/static_cast.cpp.obj
-.PHONY : static_cast.cpp.obj
-
-static_cast.i: static_cast.cpp.i
-
-.PHONY : static_cast.i
-
-# target to preprocess a source file
-static_cast.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static_cast.dir\build.make CMakeFiles/static_cast.dir/static_cast.cpp.i
-.PHONY : static_cast.cpp.i
-
-static_cast.s: static_cast.cpp.s
-
-.PHONY : static_cast.s
-
-# target to generate assembly for a file
-static_cast.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\static_cast.dir\build.make CMakeFiles/static_cast.dir/static_cast.cpp.s
-.PHONY : static_cast.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -232,12 +232,12 @@ help:
 	@echo ... llist
 	@echo ... main
 	@echo ... static_cast
+	@echo ... cast_use_cases.obj
+	@echo ... cast_use_cases.i
+	@echo ... cast_use_cases.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... static_cast.obj
-	@echo ... static_cast.i
-	@echo ... static_cast.s
 .PHONY : help
 
 
