@@ -130,6 +130,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/__PROJETS/__GITHUB/programmationTools_test/cast_use_cases.cpp">
+			<Option target="static_cast"/>
+		</Unit>
 		<Unit filename="D:/__PROJETS/__GITHUB/programmationTools_test/libllist/llist.cpp">
 			<Option target="llist"/>
 		</Unit>
@@ -138,9 +141,6 @@
 		</Unit>
 		<Unit filename="D:/__PROJETS/__GITHUB/programmationTools_test/main.cpp">
 			<Option target="main"/>
-		</Unit>
-		<Unit filename="D:/__PROJETS/__GITHUB/programmationTools_test/static_cast.cpp">
-			<Option target="static_cast"/>
 		</Unit>
 		<Unit filename="D:/__PROJETS/__GITHUB/programmationTools_test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

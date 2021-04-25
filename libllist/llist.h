@@ -2,14 +2,46 @@
 // Created by maxim on 23/04/2021.
 //
 
-#ifndef LLIST_H_
-#define LLIST_H_
+#ifndef LLIST_H
+#define LLIST_H
 
-typedef struct elem
-{
-    int value;
-    struct elem *prev;
-    struct elem *next;
-} elem ;
+#define DL_APPEND(head,add)                                                                    \
+    DL_APPEND2(head,add,prev,next)
 
-#endif //LLIST_H_
+#define DL_APPEND2(head,add,prev,next)                                                         \
+do {                                                                                           \
+  if (head) {                                                                                  \
+      (add)->prev = (head)->prev;                                                              \
+      (head)->prev->next = (add);                                                              \
+      (head)->prev = (add);                                                                    \
+      (add)->next = NULL;                                                                      \
+  } else {                                                                                     \
+      (head)=(add);                                                                            \
+      (head)->prev = (head);                                                                   \
+      (head)->next = NULL;                                                                     \
+  }                                                                                            \
+} while (0)
+
+#define DL_DELETE(head,del)                                                                    \
+    DL_DELETE2(head,del,prev,next)
+
+#define DL_DELETE2(head,del,prev,next)                                                         \
+do {                                                                                           \
+  assert((head) != NULL);                                                                      \
+  assert((del)->prev != NULL);                                                                 \
+  if ((del)->prev == (del)) {                                                                  \
+      (head)=NULL;                                                                             \
+  } else if ((del)==(head)) {                                                                  \
+      (del)->next->prev = (del)->prev;                                                         \
+      (head) = (del)->next;                                                                    \
+  } else {                                                                                     \
+      (del)->prev->next = (del)->next;                                                         \
+      if ((del)->next) {                                                                       \
+          (del)->next->prev = (del)->prev;                                                     \
+      } else {                                                                                 \
+          (head)->prev = (del)->prev;                                                          \
+      }                                                                                        \
+  }                                                                                            \
+} while (0)
+
+#endif /* LLIST_H */

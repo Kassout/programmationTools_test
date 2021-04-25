@@ -9,6 +9,10 @@
 ../libllist/llist.h
 
 D:/__PROJETS/__GITHUB/programmationTools_test/main.cpp
+cstddef
+-
+iostream
+-
 llist.h
 D:/__PROJETS/__GITHUB/programmationTools_test/llist.h
 
