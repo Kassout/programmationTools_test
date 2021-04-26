@@ -1,12 +1,16 @@
 CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
 
 PROJECT(TestTools)
+INCLUDE(CTest)
+ENABLE_TESTING()
 
 ADD_SUBDIRECTORY(libllist)
 
 SET(SOURCES main.cpp)
 
 ADD_EXECUTABLE(main ${SOURCES})
-ADD_EXECUTABLE(static_cast cast_use_cases.cpp)
+ADD_EXECUTABLE(cast_use_cases cast_use_cases.cpp)
 
 TARGET_LINK_LIBRARIES(main llist)
+
+ADD_TEST(NAME main COMMAND ./main)

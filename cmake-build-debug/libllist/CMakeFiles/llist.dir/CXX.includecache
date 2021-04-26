@@ -7,4 +7,10 @@
 #IncludeRegexTransform: 
 
 D:/__PROJETS/__GITHUB/programmationTools_test/libllist/llist.cpp
+iostream
+-
+llist.h
+D:/__PROJETS/__GITHUB/programmationTools_test/libllist/llist.h
+
+D:/__PROJETS/__GITHUB/programmationTools_test/libllist/llist.h
 

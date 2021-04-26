@@ -1,0 +1,3 @@
+"D:\__OUTILS\__CLION\CLion 2021.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\cast_use_cases.dir/objects.a
+D:\__OUTILS\__MINGW\bin\ar.exe cr CMakeFiles\cast_use_cases.dir/objects.a @CMakeFiles\cast_use_cases.dir\objects1.rsp
+D:\__OUTILS\__MINGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\cast_use_cases.dir/objects.a -Wl,--no-whole-archive -o cast_use_cases.exe -Wl,--out-implib,libcast_use_cases.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cast_use_cases.dir\linklibs.rsp

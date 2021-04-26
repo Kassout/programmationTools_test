@@ -44,4 +44,30 @@ do {                                                                            
   }                                                                                            \
 } while (0)
 
+template<typename T>
+class DoubleLinkedList {
+private:
+    struct Node {
+        T _data;
+        Node* _prev;
+        Node* _next;
+        Node(T data, Node* prev, Node* next) : _data(data), _prev(prev), _next(next) {}
+    };
+    Node* _head;
+    Node* _tail;
+public:
+    DoubleLinkedList() : _head(NULL), _tail(NULL) {}
+
+    template<int N>
+    explicit DoubleLinkedList(T (&arr) [N]);
+    ~DoubleLinkedList();
+
+    bool empty() const;
+    explicit operator bool() const;
+    void push_back(T);
+    void push_front(T);
+    T pop_back();
+    T pop_front();
+};
+
 #endif /* LLIST_H */

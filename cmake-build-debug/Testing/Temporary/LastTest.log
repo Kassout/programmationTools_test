@@ -1,3 +1,20 @@
-Start testing: Apr 25 23:21 Paris, Madrid (heure d?été)
+Start testing: Apr 26 08:29 Paris, Madrid (heure d?été)
 ----------------------------------------------------------
-End testing: Apr 25 23:21 Paris, Madrid (heure d?été)
+1/1 Testing: main
+1/1 Test: main
+Command: "D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug/main.exe"
+Directory: D:/__PROJETS/__GITHUB/programmationTools_test/cmake-build-debug
+"main" start time: Apr 26 08:29 Paris, Madrid (heure d?été)
+Output:
+----------------------------------------------------------
+5
+5
+<end of output>
+Test time =   0.45 sec
+----------------------------------------------------------
+Test Passed.
+"main" end time: Apr 26 08:29 Paris, Madrid (heure d?été)
+"main" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 26 08:29 Paris, Madrid (heure d?été)
